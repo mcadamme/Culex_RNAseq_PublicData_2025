@@ -13,7 +13,8 @@ for first_level in "$BASE_DIR"/SRR*/; do
         files=("${second_level}"*.fastq.gz)
         
         # Run fastqc on each file in this directory
-            /home/megan/src/FastQC/fastqc "${files}"
+            #/home/megan/src/FastQC/fastqc "${files[0]}"
+            /home/megan/src/FastQC/fastqc "${files[1]}"
     
     done
 done
