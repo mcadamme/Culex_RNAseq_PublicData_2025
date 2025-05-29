@@ -23,7 +23,7 @@ for first_level in "$BASE_DIR"/SRR*/; do
      samtools view -bS $sample -o ${SUBDIR_NAME}.uns.bam
      
      #Sort BAM file
-     samtools sort ${SUBDIR_NAME}.uns.bam ${SUBDIR_NAME}.bam
+     samtools sort ${SUBDIR_NAME}.uns.bam -o ${SUBDIR_NAME}.bam
      
      #Index BAM file
      samtools index ${SUBDIR_NAME}.bam
