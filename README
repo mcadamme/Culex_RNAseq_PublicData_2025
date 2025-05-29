@@ -1,0 +1,13 @@
+These are the source data I used for this analysis
+
+Ryazansky et al. 2024:Adult female antennae (30 female mosquitoes @ 7-9 days post emergence): SRR23829117, SRR23829116
+Ryazansky et al. 2024: Adult female proboscis (30 female mosquitoes @ 7-9 days post emergence): SRR23829115
+
+
+Leal et al. 2013: Adult female hind legs (500 females @ 8-9 days post emergence): SRR991017
+Leal et al. 2013: Adult female antennae (500 females @ 8-9 days post emergence): SRR991016
+
+Citations:
+Leal WS, Choo YM, Xu P, da Silva CS, Ueira-Vieira C. Differential expression of olfactory genes in the southern house mosquito and insights into unique odorant receptor gene isoforms. Proc Natl Acad Sci U S A. 2013 Nov 12;110(46):18704-9. doi: 10.1073/pnas.1316059110.
+
+Ryazansky, S.S., Chen, C., Potters, M. et al. The chromosome-scale genome assembly for the West Nile vector Culex quinquefasciatus uncovers patterns of genome evolution in mosquitoes. BMC Biol 22, 16 (2024). https://doi.org/10.1186/s12915-024-01825-0
