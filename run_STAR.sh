@@ -7,7 +7,7 @@
 ##Generate Genome Index
 /home/megan/src/STAR-2.7.11b/source/STAR --runThreadN 8 --runMode genomeGenerate --genomeDir /home/megan/Desktop/Public_mosquito_rnaseq/Genome \
 --genomeFastaFiles /home/megan/Desktop/Public_mosquito_rnaseq/Genome/GCA_015732765.1_VPISU_Cqui_1.0_pri_paternal_genomic.fna \
---sjdbGTFfile /home/megan/Desktop/Public_mosquito_rnaseq/Genome/merged_sorted_locusName.gff3 --sjdbOverhang 150 --sjdbGTFtagExonParentTranscript Parent --genomeSAindexNbases 13.5
+--sjdbGTFfile /home/megan/Desktop/Public_mosquito_rnaseq/Genome/merged_sorted_locusName_06042025.gff3 --sjdbOverhang 150 --sjdbGTFtagExonParentTranscript Parent --genomeSAindexNbases 13.5
 
 
 # Setting the base directory for read mapping
@@ -35,4 +35,6 @@ for first_level in "$BASE_DIR"/SRR*/; do
 	
 	done
 done
+
+cp ~/Log_summary "$BASE_DIR"
 
